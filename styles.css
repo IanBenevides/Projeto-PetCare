@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    font-family: sans-serif;
+    background-color: #f8f0f0; /* Very light red background */
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #c62828; /* Dark red header */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    flex: 1;
+}
+
+h2 {
+    color: #c62828; /* Dark red heading */
+}
+
+/* Form Styling */
+#form-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form-section input[type="text"],
+#form-section input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+#form-section button {
+    background-color: #d32f2f; /* Red button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Table Styling */
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#data-table th {
+    background-color: #ffebee; /* Very light red table header */
+}

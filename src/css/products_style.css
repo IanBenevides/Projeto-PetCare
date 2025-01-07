@@ -1,0 +1,255 @@
+@import url('./global-styles/petcare_colors_style.css');
+
+/********************/
+/** Filters Column **/
+/********************/
+
+.subtitle-filter {
+    color: var(--petcare-color-dark-brown);
+}
+
+input[type="text"]:focus {
+    border-color: var(--petcare-color-orange);
+    box-shadow: 0 0 0 0.25rem rgba(242, 183, 5, 0.25);
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: var(--petcare-color-beige);
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: var(--petcare-color-orange);
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: var(--petcare-color-beige);
+}
+
+.form-check-input:focus {
+    border-color: var(--petcare-color-orange);
+    box-shadow: 0 0 0 0.25rem rgba(242, 183, 5, 0.25);
+}
+
+.form-check-input:checked {
+    background-color: var(--petcare-color-dark-orange);
+    border-color: var(--petcare-color-orange);
+}
+
+/*********************/
+/** Products Column **/
+/*********************/
+
+.products-column {
+    padding-bottom: 100px;
+}
+
+.error-message {
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    background-color: var(--petcare-color-full-white);
+    box-shadow: 0 0 5px var(--petcare-color-warning-red);
+    border-radius: 8px;
+    display: none;
+}
+
+.error-icon {
+    color: var(--petcare-color-warning-red);
+}
+
+.error-text {
+    color: var(--petcare-color-warning-red);
+}
+
+.div-loading {
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    background-color: var(--petcare-color-full-white);
+    box-shadow: 0 0 3px var(--petcare-color-orange);
+    border-radius: 8px;
+}
+
+.spinner-border {
+    margin-bottom: 10px;
+    color: var(--petcare-color-orange);
+}
+
+.loading-text {
+    vertical-align: middle;
+    padding-left: 20px;
+    font-size: 18px;
+    color: var(--petcare-color-orange);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.span-results {
+    font-size: 14px;
+    font-style: italic;
+    color: var(--petcare-color-gray-light);
+}
+
+.product-card {
+    width: 250px;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+    border: 1px solid var(--petcare-color-full-white);
+    background-color: var(--petcare-color-full-white);
+}
+
+.product-card:hover {
+    box-shadow: 0 1px 5px var(--petcare-color-dark-gray);
+}
+
+.product-image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-image {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-image-detail {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.product-name {
+    color: var(--petcare-color-dark-gray);
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.product-name-detail {
+    margin-top: 0;
+}
+
+.product-price {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--petcare-color-dark-orange);
+}
+
+.back-button {
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.btn {
+    margin-bottom: 8px;
+}
+
+.buy-button {
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid var(--petcare-color-dark-orange);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--petcare-color-orange);
+    border-color: var(--petcare-color-orange);
+    color: var(--petcare-color-full-white) !important;
+    transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.buy-button:hover {
+    background-color: var(--petcare-color-dark-orange);
+    border-color: var(--petcare-color-dark-orange);
+}
+
+btn:active, .buy-button:active {
+    background-color: var(--petcare-color-dark-brown);
+    border-color: var(--petcare-color-dark-brown);
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
+.product-hidden {
+    display: none;
+}
+
+.product-visible {
+    display: block;
+}
+
+@media (max-width: 1024px) {
+
+    .products-column .row-cols-md-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-card {
+        box-shadow: 0 1px 5px var(--petcare-color-dark-gray);
+        width: 200px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .products-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-column .row {
+        width: 100%;
+    }
+
+    .product-card {
+        box-shadow: 0 1px 5px var(--petcare-color-dark-gray);
+        width: 100%;
+        margin: 5px 0;
+    }
+}

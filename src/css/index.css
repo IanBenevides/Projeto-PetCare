@@ -1,0 +1,136 @@
+@import url(./src/global-styles/petcare_colors_style.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--petcare-color-dark-gray);
+}
+
+.btn-menu {
+  width: 8rem;
+  height: 3rem;
+}
+
+.btn-menu:hover {
+  background-color: var(--petcare-color-gray-light);
+}
+
+.carousel {
+  width: 90%;
+  margin: auto;
+}
+
+h6,
+span {
+  font-size: 0.65rem;
+}
+
+.btn-card {
+  background-color: var(--petcare-color-orange);
+  color: var(--petcare-color-white);
+}
+
+.btn-card:hover {
+  background-color: var(--petcare-color-dark-orange);
+  color: antiquewhite;
+}
+
+.btn-categoria {
+  border-style: none;
+  border-radius: 8px;
+}
+
+.btn-categoria:hover {
+  background-color: var(--petcare-color-gray-light);
+}
+
+.img-categ-pop {
+  height: 160px;
+  width: 180px;
+}
+
+.card-vantagens {
+  width: 180px;
+  height: 80px;
+}
+
+.ver-regras {
+  font-size: 0.8rem;
+}
+
+.novidades {
+  background-color: var(--petcare-color-beige);
+}
+
+.form-novidades {
+  width: 80%;
+}
+
+.link-novidades {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--petcare-color-dark-gray);
+  font-size: 0.7rem;
+}
+
+.link-novidades:hover {
+  text-decoration: underline;
+  color: var(--petcare-color-orange);
+}
+
+.form-control,
+.form-select {
+  background-color: var(--petcare-color-beige);
+  border: solid 2px var(--petcare-color-gray-light);
+}
+
+.btn-form {
+  border: solid 2px var(--petcare-color-gray-light);
+  width: 300px;
+  font-weight: 600;
+}
+
+.btn-form:hover {
+  border: solid 2px var(--petcare-color-dark-gray);
+}
+
+.social-media {
+  background-color: var(--petcare-color-white);
+}
+
+.midias {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .carousel {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .novidades {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .form-novidades {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel {
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .novidades {
+    max-width: 60%;
+    margin: auto;
+  }
+}

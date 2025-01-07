@@ -1,0 +1,135 @@
+
+.divider {
+   width: 100%;
+   text-align: center;
+   border-top: 1px solid var(--petcare-color-gray-light);
+   position: relative;
+   margin: 20px 0;
+}
+
+.divider-text {
+   position: absolute;
+   top: -10px;
+   left: 50%;
+   transform: translateX(-50%);
+   background-color: var(--petcare-color-white);
+   padding: 0 10px;
+}
+
+.titulo {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+h3 {
+   font-family: 'Ubuntu Sans', sans-serif;
+   font-size: 13px;
+   margin: 20px 0 0 0;
+}
+
+.container-login {
+   margin: 0 auto;
+   padding: 6px;
+   width: 350px;
+   height: 450px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+   border-radius: 10px;
+   background-color: var(--petcare-color-white);
+   box-shadow: 0 0 20px 0 var(--petcare-color-gray-light);
+   padding-bottom: 60px;
+   margin-bottom: 30px;
+}
+
+form {
+   position: absolute;
+   top: 80px;
+   transition: .5s;
+   width: 300px;
+   height: 400px;
+   margin-top: 30px;
+}
+
+#btnSignin, #btnSignup {
+   font-weight: bold;
+}
+
+.buttonsForm {
+   margin-top: 40px;
+   position: relative;
+   border-radius: 30px;
+   box-shadow: 0 0 7px 0 var(--petcare-color-orange);
+}
+
+.buttonsForm button {
+   cursor: pointer;
+   background: transparent;
+   border: none;
+   position: relative;
+   padding: 10px 29px;
+}
+
+.btnColor {
+   position: absolute;
+   width: 120px;
+   height: 100%;
+   background: linear-gradient(to right, var(--petcare-color-yellow), var(--petcare-color-orange));
+   border-radius: 30px;
+   transition: .3s;
+}
+
+input[type="text"],
+input[type="password"] {
+   border: none;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   padding: 8px 0 8px 15px;
+   outline: none;
+   width: 100%;
+   font-size: 12px;
+}
+
+#senhaLogin, #confirmSenha {
+   margin-bottom: 30px;
+}
+
+button[type="submit"] {
+   background: var(--petcare-color-orange);
+   color: var(--petcare-color-gray);
+   border-radius: 5px;
+   width: 100%;
+   border: none;
+   outline: none;
+   padding: 8px 0 8px 10px;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+#signin {
+   left: 25px;
+}
+
+#signup {
+   left: 450px;
+}
+
+h3 {
+   font-family: 'Ubuntu Sans', sans-serif;
+   font-size: 13px;
+   margin: 20px 0 0 0;
+}
+
+label {
+   font-size: 10px;
+   font-family: 'Ubuntu Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+   .container-login {
+      margin: 0 auto;
+      max-width: 100%;
+   }
+}

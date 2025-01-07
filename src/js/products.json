@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Ração Premier Golden Formula Cães Adultos Frango e Arroz Mini Bits",
+        "price": 150.21,
+        "imageUrl": "https://www.petlove.com.br/images/products/265990/hd_no_extent/Ra%C3%A7%C3%A3o_Seca_PremieR_Pet_Golden_Formula_C%C3%A3es_Adultos_Frango_e_Arroz_Mini_Bits_-_15_Kg_31021721-3_1.jpg?1674059936",
+        "category": "cachorro"
+    },
+    {
+        "id": 2,
+        "name": "Ração Seca Nutrilus Pro+ Frango & Carne para Cães Adultos de Raças Pequenas",
+        "price": 128.72,
+        "imageUrl": "https://www.petlove.com.br/images/products/267815/hd_no_extent/Ra%C3%A7%C3%A3o_Seca_Nutrilus_Pro__Frango___Carne_para_C%C3%A3es_Adultos_de_Ra%C3%A7as_Pequenas_!.jpg?1681215307",
+        "category": "cachorro"
+    },
+    {
+        "id": 3,
+        "name": "Ração Royal Canin Premium Cat para Gatos Adultos Castrados",
+        "price": 629.91,
+        "imageUrl": "https://www.petlove.com.br/images/products/177801/hd_no_extent/Ra%C3%A7%C3%A3o-Royal-Canin-Premium-Cat-para-Gatos-Adultos-Castrados.jpg?1627584785",
+        "category": "gato"
+    },
+    {
+        "id": 4,
+        "name": "Ração Royal Canin Premium Cat Vitalidade para Gatos Adultos",
+        "price": 67.41,
+        "imageUrl": "https://www.petlove.com.br/images/products/177805/hd_no_extent/Ra%C3%A7%C3%A3o-Royal-Canin-Premium-Cat-Vitalidade-para-Gatos-Adultos.jpg?1627584805",
+        "category": "gato"
+    },
+    {
+        "id": 5,
+        "name": "Ração Megazoo Mix para Calopsitas",
+        "price": 33.29,
+        "imageUrl": "https://www.petlove.com.br/images/products/188839/hd_no_extent/Megazoo_Mix_Calopsita_350g_3101906.jpg?1627610695",
+        "category": "ave"
+    },
+    {
+        "id": 6,
+        "name": "Ração Extrusada Megazoo para Tartarugas",
+        "price": 132.55,
+        "imageUrl": "https://www.petlove.com.br/images/products/225282/hd_no_extent/2511453.jpg?1627722448",
+        "category": "reptil"
+    },
+    {
+        "id": 7,
+        "name": "Ração Tetra Min Flakes em Flocos",
+        "price": 178.90,
+        "imageUrl": "https://www.petlove.com.br/images/products/162940/hd_no_extent/TetraMin-200g_1L_2.jpg?1627549693",
+        "category": "peixe"
+    },
+    {
+        "id": 8,
+        "name": "Comedouro e Bebedouro Duplo em Inox com Suporte",
+        "price": 49.90,
+        "imageUrl": "https://www.petlove.com.br/images/products/187462/hd_no_extent/31010152.jpg?1627607228",
+        "category": "geral"
+    }
+]
